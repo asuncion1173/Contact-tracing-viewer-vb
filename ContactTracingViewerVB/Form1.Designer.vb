@@ -25,7 +25,7 @@ Partial Class Form1
         Me.searchBtn = New System.Windows.Forms.Button()
         Me.clearBtn = New System.Windows.Forms.Button()
         Me.viewAllTxtBox = New System.Windows.Forms.TextBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.searchTxtBox = New System.Windows.Forms.TextBox()
         Me.viewSpecTxtBox = New System.Windows.Forms.TextBox()
         Me.SuspendLayout()
         '
@@ -55,12 +55,12 @@ Partial Class Form1
         Me.viewAllTxtBox.Size = New System.Drawing.Size(456, 204)
         Me.viewAllTxtBox.TabIndex = 2
         '
-        'TextBox2
+        'searchTxtBox
         '
-        Me.TextBox2.Location = New System.Drawing.Point(38, 241)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(294, 20)
-        Me.TextBox2.TabIndex = 3
+        Me.searchTxtBox.Location = New System.Drawing.Point(38, 241)
+        Me.searchTxtBox.Name = "searchTxtBox"
+        Me.searchTxtBox.Size = New System.Drawing.Size(294, 20)
+        Me.searchTxtBox.TabIndex = 3
         '
         'viewSpecTxtBox
         '
@@ -76,7 +76,7 @@ Partial Class Form1
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(528, 460)
         Me.Controls.Add(Me.viewSpecTxtBox)
-        Me.Controls.Add(Me.TextBox2)
+        Me.Controls.Add(Me.searchTxtBox)
         Me.Controls.Add(Me.viewAllTxtBox)
         Me.Controls.Add(Me.clearBtn)
         Me.Controls.Add(Me.searchBtn)
@@ -90,6 +90,6 @@ Partial Class Form1
     Friend WithEvents searchBtn As Button
     Friend WithEvents clearBtn As Button
     Friend WithEvents viewAllTxtBox As TextBox
-    Friend WithEvents TextBox2 As TextBox
+    Friend WithEvents searchTxtBox As TextBox
     Friend WithEvents viewSpecTxtBox As TextBox
 End Class

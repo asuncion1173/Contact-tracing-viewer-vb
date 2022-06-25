@@ -1,0 +1,12 @@
+C:\Users\ASUNCION\source\repos\VB\ContactTracingViewerVB\ContactTracingViewerVB\bin\Debug\ContactTracingViewerVB.exe.config
+C:\Users\ASUNCION\source\repos\VB\ContactTracingViewerVB\ContactTracingViewerVB\bin\Debug\ContactTracingViewerVB.exe
+C:\Users\ASUNCION\source\repos\VB\ContactTracingViewerVB\ContactTracingViewerVB\bin\Debug\ContactTracingViewerVB.pdb
+C:\Users\ASUNCION\source\repos\VB\ContactTracingViewerVB\ContactTracingViewerVB\bin\Debug\ContactTracingViewerVB.xml
+C:\Users\ASUNCION\source\repos\VB\ContactTracingViewerVB\ContactTracingViewerVB\obj\Debug\ContactTracingViewerVB.vbproj.AssemblyReference.cache
+C:\Users\ASUNCION\source\repos\VB\ContactTracingViewerVB\ContactTracingViewerVB\obj\Debug\ContactTracingViewerVB.Form1.resources
+C:\Users\ASUNCION\source\repos\VB\ContactTracingViewerVB\ContactTracingViewerVB\obj\Debug\ContactTracingViewerVB.Resources.resources
+C:\Users\ASUNCION\source\repos\VB\ContactTracingViewerVB\ContactTracingViewerVB\obj\Debug\ContactTracingViewerVB.vbproj.GenerateResource.cache
+C:\Users\ASUNCION\source\repos\VB\ContactTracingViewerVB\ContactTracingViewerVB\obj\Debug\ContactTracingViewerVB.vbproj.CoreCompileInputs.cache
+C:\Users\ASUNCION\source\repos\VB\ContactTracingViewerVB\ContactTracingViewerVB\obj\Debug\ContactTracingViewerVB.exe
+C:\Users\ASUNCION\source\repos\VB\ContactTracingViewerVB\ContactTracingViewerVB\obj\Debug\ContactTracingViewerVB.xml
+C:\Users\ASUNCION\source\repos\VB\ContactTracingViewerVB\ContactTracingViewerVB\obj\Debug\ContactTracingViewerVB.pdb

@@ -24,9 +24,9 @@ Partial Class Form1
     Private Sub InitializeComponent()
         Me.searchBtn = New System.Windows.Forms.Button()
         Me.clearBtn = New System.Windows.Forms.Button()
-        Me.viewAllTxtBox = New System.Windows.Forms.TextBox()
         Me.searchTxtBox = New System.Windows.Forms.TextBox()
         Me.viewSpecTxtBox = New System.Windows.Forms.TextBox()
+        Me.ListBox1 = New System.Windows.Forms.ListBox()
         Me.SuspendLayout()
         '
         'searchBtn
@@ -47,14 +47,6 @@ Partial Class Form1
         Me.clearBtn.Text = "Clear"
         Me.clearBtn.UseVisualStyleBackColor = True
         '
-        'viewAllTxtBox
-        '
-        Me.viewAllTxtBox.Location = New System.Drawing.Point(38, 13)
-        Me.viewAllTxtBox.Multiline = True
-        Me.viewAllTxtBox.Name = "viewAllTxtBox"
-        Me.viewAllTxtBox.Size = New System.Drawing.Size(456, 204)
-        Me.viewAllTxtBox.TabIndex = 2
-        '
         'searchTxtBox
         '
         Me.searchTxtBox.Location = New System.Drawing.Point(38, 241)
@@ -70,14 +62,22 @@ Partial Class Form1
         Me.viewSpecTxtBox.Size = New System.Drawing.Size(456, 149)
         Me.viewSpecTxtBox.TabIndex = 4
         '
+        'ListBox1
+        '
+        Me.ListBox1.FormattingEnabled = True
+        Me.ListBox1.Location = New System.Drawing.Point(38, 12)
+        Me.ListBox1.Name = "ListBox1"
+        Me.ListBox1.Size = New System.Drawing.Size(456, 212)
+        Me.ListBox1.TabIndex = 5
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(528, 460)
+        Me.Controls.Add(Me.ListBox1)
         Me.Controls.Add(Me.viewSpecTxtBox)
         Me.Controls.Add(Me.searchTxtBox)
-        Me.Controls.Add(Me.viewAllTxtBox)
         Me.Controls.Add(Me.clearBtn)
         Me.Controls.Add(Me.searchBtn)
         Me.Name = "Form1"
@@ -89,7 +89,7 @@ Partial Class Form1
 
     Friend WithEvents searchBtn As Button
     Friend WithEvents clearBtn As Button
-    Friend WithEvents viewAllTxtBox As TextBox
     Friend WithEvents searchTxtBox As TextBox
     Friend WithEvents viewSpecTxtBox As TextBox
+    Friend WithEvents ListBox1 As ListBox
 End Class

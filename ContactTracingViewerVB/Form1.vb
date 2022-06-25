@@ -5,8 +5,13 @@ Public Class Form1
 
         Dim search As String = searchTxtBox.Text + ".txt"
 
-        filereader = My.Computer.FileSystem.OpenTextFileReader("C:\Users\ASUNCION\Desktop\Visitor's Files\" + search)
-        viewSpecTxtBox.Text = filereader.ReadToEnd()
+
+        If File.Exists(search) Then
+            filereader = My.Computer.FileSystem.OpenTextFileReader(search)
+            viewSpecTxtBox.Text = filereader.ReadToEnd()
+        End If
+
+
 
     End Sub
 End Class

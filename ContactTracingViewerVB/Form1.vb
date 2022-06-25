@@ -23,5 +23,8 @@ Public Class Form1
         Next
     End Sub
 
-
+    Private Sub clearBtn_Click(sender As Object, e As EventArgs) Handles clearBtn.Click
+        searchTxtBox.Clear()
+        viewSpecTxtBox.Clear()
+    End Sub
 End Class
